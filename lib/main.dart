@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+import 'MyHomePage.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Seetest Device Setup',
+      theme: new ThemeData(
+        primarySwatch: Colors.lightBlue,
+      ),
+      home: new MyHomePage(title: 'Seetest Device Setup'),
+    );
+  }
+}
