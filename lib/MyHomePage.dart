@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   new TextFormField(
                       decoration: const InputDecoration(
-                        icon: const Icon(Icons.build_outlined),
+                        icon: const Icon(Icons.build),
                         hintText: 'Enter The Nexus Build link',
                         labelText: 'Nexus url',
                       ),
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       }),
                   new TextFormField(
                       decoration: const InputDecoration(
-                        icon: const Icon(Icons.mobile_friendly),
+                        icon: const Icon(Icons.mobile_screen_share),
                         hintText: 'Enter the Device id to install the build',
                         labelText: 'Device Id',
                       ),
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       }),
                   new TextFormField(
                       decoration: const InputDecoration(
-                        icon: const Icon(Icons.app_registration),
+                        icon: const Icon(Icons.apps),
                         hintText:
                             'Enter Sort Code, Account Number, First Name, Last Name & Card no. of customer',
                         labelText: 'Registration Details',
