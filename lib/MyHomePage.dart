@@ -127,10 +127,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             if (!_formKey.currentState.validate()) {
                               return;
                             }
-
-                            _formKey.currentState.save();
                             uploadApp.uploadApp(seetestAccessKey, nexusUrl,
                                 deviceId, registrationsDetails, environment);
+                            _formKey.currentState.save();
 
                             print(seetestAccessKey);
                             print(nexusUrl);

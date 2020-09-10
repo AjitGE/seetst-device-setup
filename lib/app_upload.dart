@@ -6,20 +6,16 @@ String appUploadToJson(AppUpload data) => json.encode(data.toJson());
 
 class AppUpload {
   AppUpload({
-    this.email,
-    this.password,
+    this.applicationId,
   });
 
-  String email;
-  String password;
+  String applicationId;
 
   factory AppUpload.fromJson(Map<String, dynamic> json) => AppUpload(
-        email: json["email"],
-        password: json["password"],
+        applicationId: json["applicationId"],
       );
 
   Map<String, dynamic> toJson() => {
-        "email": email,
-        "password": password,
+        "applicationId": applicationId,
       };
 }
