@@ -1,6 +1,5 @@
 import 'package:http/http.dart' as http;
 
-import 'MyHomePage.dart';
 import 'app_upload.dart';
 
 class UploadApp {
